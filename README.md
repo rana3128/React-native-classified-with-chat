@@ -4,6 +4,8 @@ React native application for classified with chat feature, App and API code in s
  Setup React Native application as any other react native app from FindtoEasy folder
  Setup Backend from api-findtoeasy ( configure mongoDb connection from .env )
  
+ Using AWS s3 to store images mongoDb
+ 
 # sample .env :-
 ```
   mongoUri=mongoUri

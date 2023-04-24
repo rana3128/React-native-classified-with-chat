@@ -2,7 +2,7 @@
 React native application for classified with chat feature, App and API code in separate folder 
  
  Setup React Native application as any other react native app from FindtoEasy folder
- Setup Backend from api-findtoeasy ( congigure mongoDb connection from .env )
+ Setup Backend from api-findtoeasy ( configure mongoDb connection from .env )
  
 # sample .env :-
 ```

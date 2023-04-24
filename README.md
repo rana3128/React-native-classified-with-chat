@@ -5,9 +5,10 @@ React native application for classified with chat feature, App and API code in s
  Setup Backend from api-findtoeasy ( congigure mongoDb connection from .env )
  
 # sample .env :-
-
+```
   mongoUri=mongoUri
   secret=some-secret
   JWT_SECRET=some-secret
   awsAccessKeyId=awsAccessKeyId
   awsSecretAccessKey=awsSecretAccessKey
+  ```

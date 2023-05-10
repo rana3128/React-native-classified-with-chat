@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "findtoeasy",
+    "slug": "findtoeasy",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./app/assets/logo.png",
+    "splash": {
+      "image": "./app/assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "A marketplace for selling the stuff you don't need anymore.",
+    "extra": {
+      "eas": {
+        "projectId": "9607ba9f-2413-4172-ae9d-2d5f369613cd"
+      }
+    },
+    "android": {
+      "package": "com.vijay.ps3128.findtoeasy",
+      "versionCode": 2
+    }
+  }
+}

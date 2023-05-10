@@ -1,0 +1,25 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/src/server.js",
+      "env": {
+        "mongoUri": "mongodb://localhost:27017/findtoeasy",
+        "NODE_ENV": "local",
+        "secret": "rana@9808403128",
+        "JWT_SECRET": "rana@9808403128",
+        "awsAccessKeyId": "AKIAQLDAYMS7CX2RHPPN",
+        "awsSecretAccessKey": "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"
+      }
+    }
+  ]
+}
